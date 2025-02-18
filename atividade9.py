@@ -4,7 +4,9 @@ if "C" in direcao or "c" in direcao:
     num=int(input("Insira um número:"))
     for i in range(num):
         print(i+1)
+    print("Felipe Bortoluzzi dos Santos")
 elif "A" in direcao or "a" in direcao:
     num=int(input("insira um número abaixo de 20: "))
     for i in range(num,21)[::-1]:
         print(i)
+    print("Felipe Bortoluzzi dos Santos")
