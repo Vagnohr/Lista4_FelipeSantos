@@ -5,3 +5,4 @@ for i in x:
     tabuada=numero*i
     print(numero,"x",i,"=",tabuada)
     i += 1
+print("Felipe Bortoluzzi dos Santos")

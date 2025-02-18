@@ -4,3 +4,4 @@ num=int(input("Insira número de repetições: "))
 for i in range(num):
     for x in nome:
         print(x)
+print("Felipe Bortoluzzi dos Santos")
