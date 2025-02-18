@@ -1,0 +1,1 @@
+#pessa um número abaixo de 50 e em seguida fassa um contagem regressiva até esse número, certificando-se desmotrar o número que eles inseriram na saida
