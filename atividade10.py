@@ -2,8 +2,8 @@
 pessoas=int(input("Insira quantas pessoa ira convidar: "))
 for i in range(pessoas):
     if pessoas<10:
-        nome=("Insira o nome do conidado: ")
+        nome=input("Insira o nome do convidado: ")
         print("{} está convidado convidado para a festa".format(nome))
-else:
-    print("Muitas pessoas")
+    else:
+        print("Muitas pessoas")
 print("Felipe Bortoluzzi dos Santos")
