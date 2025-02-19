@@ -1,10 +1,9 @@
 #Faça um programa que pergunte quantas pessoas o usuário deseja convidar para uma festa. Se ele digitar um número abaixo de 10, peça os nomes e após cada nome exiba a mensagem: "[nome] está convidado para a festa".  Se ele inserir um número 10 ou superior, exiba a mensagem "Muitas pessoas".
-pessoas=input("Insira quantas pessoa ira convidar: ")
-if pessoas<10:
-    for i in range(pessoas):
+pessoas=int(input("Insira quantas pessoa ira convidar: "))
+for i in range(pessoas):
+    if pessoas<10:
         nome=("Insira o nome do conidado: ")
-        print("{} está convidado convidado para a festa")
-    print("Felipe Bortoluzzi dos Santos")
+        print("{} está convidado convidado para a festa".format(nome))
 else:
-    print("muitas pessoas")
-    print("Felipe Bortoluzzi dos Santos")
+    print("Muitas pessoas")
+print("Felipe Bortoluzzi dos Santos")
